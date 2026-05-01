@@ -1,7 +1,8 @@
+import { NextPage } from 'next';
 import Link from 'next/link';
-import styles from './styles/Home.module.css';
+import styles from '../styles/Home.module.css';
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <section className={styles.hero}>
@@ -35,4 +36,6 @@ export default function Home() {
       </section>
     </div>
   );
-}
+};
+
+export default Home;

@@ -1,0 +1,60 @@
+.container {
+  padding: 20px 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.titulo {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+  font-weight: 700;
+}
+
+.subtitulo {
+  color: #718096;
+  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contador {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.95rem;
+}
+
+.contadorNumero {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.contadorTexto {
+  opacity: 0.95;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
