@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
-import Layout from './components/Layout/Layout';
-import './styles/globals.css';
+import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Portal Viagens',
@@ -15,9 +14,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        <Layout>
-          {children}
-        </Layout>
+        {children}
       </body>
     </html>
   );
