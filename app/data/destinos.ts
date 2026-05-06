@@ -4,7 +4,7 @@ export const destinos: Destino[] = [
   {
     id: 1,
     nome: "Paris",
-    imagem: "/public/images/paris.jpg",
+    imagem: "/destinos/imagens/paris.jpg",
     descricao: "A Cidade Luz, famosa pela Torre Eiffel, museus e culinária romântica.",
     pais: "França",
     moeda: "Euro (€)",
@@ -16,7 +16,7 @@ export const destinos: Destino[] = [
   {
     id: 2,
     nome: "Tóquio",
-    imagem: "/public/images/toquio.jpg",
+    imagem: "/destinos/imagens/toquio.jpg",
     descricao: "Metrópole vibrante que mescla tradição e tecnologia futurista.",
     pais: "Japão",
     moeda: "Iene (¥)",
@@ -28,7 +28,7 @@ export const destinos: Destino[] = [
   {
     id: 3,
     nome: "Rio de Janeiro",
-    imagem: "/public/images/rio.jpg",
+    imagem: "/destinos/imagens/rio.jpg",
     descricao: "Cidade maravilhosa com praias icônicas e o Cristo Redentor.",
     pais: "Brasil",
     moeda: "Real (R$)",
@@ -40,7 +40,7 @@ export const destinos: Destino[] = [
   {
     id: 4,
     nome: "Roma",
-    imagem: "/public/images/roma.jpg",
+    imagem: "/destinos/imagens/roma.jpg",
     descricao: "A Cidade Eterna, berço da civilização ocidental e arte milenar.",
     pais: "Itália",
     moeda: "Euro (€)",
@@ -52,7 +52,7 @@ export const destinos: Destino[] = [
   {
     id: 5,
     nome: "Barcelona",
-    imagem: "/public/images/barcelona.jpg",
+    imagem: "/destinos/imagens/barcelona.jpg",
     descricao: "Arquitetura modernista e praias ensolaradas no Mediterrâneo.",
     pais: "Espanha",
     moeda: "Euro (€)",
@@ -64,7 +64,7 @@ export const destinos: Destino[] = [
   {
     id: 6,
     nome: "Nova York",
-    imagem: "/public/images/nova-york.jpg",
+    imagem: "/destinos/imagens/nova-york.jpg",
     descricao: "A cidade que nunca dorme, centro financeiro e cultural mundial.",
     pais: "Estados Unidos",
     moeda: "Dólar (US$)",
